@@ -37,5 +37,15 @@ Validation
        out put - message and httpstatus code bad request(400)
     invalid Account id 
       	out put - message and httpstatus code bad request(400)
+	
+How to test 
+   start the application 
+   open the swagger url via browser 
+   click account-statement-controller in the UI 
+   All API urls will be listed in the UI 
+   Click each URL 
+   click try it out button fron right corner of the UI 
+   give your inputs on the fields 
+   click execute button 
 		
 
