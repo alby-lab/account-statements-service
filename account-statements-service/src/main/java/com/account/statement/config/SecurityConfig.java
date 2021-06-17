@@ -64,10 +64,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		try {
 		PasswordEncoder encoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
 		auth.inMemoryAuthentication()
-		.withUser("admin").password(encoder.encode("password")).roles("ADMIN")
+		.withUser("admin").password(encoder.encode("admin")).roles("ADMIN")
 		.and()
         .withUser("user")
-        .password(encoder.encode("userpswd"))
+        .password(encoder.encode("user"))
         .roles("USER");
 		}catch (Exception e) {
 			logger.error("SecurityConfig:configureGlobal:"+e.getMessage());
