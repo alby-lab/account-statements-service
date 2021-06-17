@@ -1,0 +1,16 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+account-statements-service,com.account.statement.controller,AccountStatementController,0,192,0,22,0,36,0,16,0,5
+account-statements-service,com.account.statement.controller,AccountFilterTest,3,0,0,0,1,0,1,0,1,0
+account-statements-service,com.account.statement.service,AccountSatementServiceImpl,84,423,2,16,14,73,2,19,0,12
+account-statements-service,com.account.statement,AccountServiceApplication,5,3,0,0,2,1,1,1,1,1
+account-statements-service,com.account.statement.utils,ValidationMessage,0,48,0,0,0,8,0,3,0,3
+account-statements-service,com.account.statement.utils,StatementUtils,3,27,1,5,1,9,2,4,1,2
+account-statements-service,com.account.statement.domain,Statement,0,31,0,0,0,13,0,9,0,9
+account-statements-service,com.account.statement.domain,StatementDto,0,31,0,0,0,13,0,9,0,9
+account-statements-service,com.account.statement.domain,Account,0,24,0,0,0,10,0,7,0,7
+account-statements-service,com.account.statement.domain,ValidationResponse,0,17,0,0,0,7,0,5,0,5
+account-statements-service,com.account.statement.config,SecurityConfig,24,65,0,0,4,16,0,4,0,4
+account-statements-service,com.account.statement.config,SecurityConfig.DefaultRequiresCsrfMatcher,2,3,0,0,1,1,1,1,1,1
+account-statements-service,com.account.statement.request,StatementRequest,0,38,0,0,0,16,0,11,0,11
+account-statements-service,com.account.statement.repository,AccountRowMapper,24,0,0,0,6,0,2,0,2,0
+account-statements-service,com.account.statement.repository,StatementRowMapper,0,29,0,0,0,7,0,2,0,2
